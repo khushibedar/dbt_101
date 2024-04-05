@@ -1,7 +1,0 @@
-version: 2 
-sources:
-  - name: source1
-    schema: retail_data01
-    tables:
-      - name: joining
-        identifier: test2
