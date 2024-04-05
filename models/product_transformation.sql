@@ -1,7 +1,1 @@
-select 
-    *
-from {{ source('joining' , 'test2')}}
-
-    
-
-    
+select name as prod_name, id as product_id from retail_data.product
