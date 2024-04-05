@@ -1,6 +1,6 @@
 select 
     *
-from {{ sources('joining' , 'test2')}}
+from {{ source('joining' , 'test2')}}
 
     
 
