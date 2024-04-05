@@ -26,8 +26,8 @@ model-paths: ["models"]
 models:
   dbt_sample:
     +materialized: view
-     dim:
-        +materialized: table   
+  dim:
+    +materialized: table   
     
 
 
