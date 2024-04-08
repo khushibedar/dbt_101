@@ -1,7 +1,7 @@
 version: 2 
 sources:
   - name: source1
-    schema: retail_data01
+    schema: retail_data
     tables:
       - name: joining
-        identifier: test2
+        identifier: product
